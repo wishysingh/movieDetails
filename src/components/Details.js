@@ -50,7 +50,9 @@ class Details extends React.Component{
 }
 
 Details.propTypes = {
-  match: PropTypes.object
+  match: PropTypes.object,
+  location: PropTypes.object,
+  movies: PropTypes.object
 };
 
 export default Details;

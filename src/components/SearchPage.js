@@ -131,6 +131,7 @@ class SearchPage extends React.Component {
             <Searchbox
               searchChange={this.onSearchChange.bind(this)}
               searchClick={this.onSearchClick.bind(this)}
+              placeholder={this.state.searchtext}
             />
             {this.state.movies && (
               <div>

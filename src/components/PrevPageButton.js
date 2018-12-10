@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from "prop-types";
 
 const PrevPageButton = ({prev}) => {
     return (
@@ -9,3 +10,8 @@ const PrevPageButton = ({prev}) => {
 }
 
 export default PrevPageButton;
+
+
+PrevPageButton.propTypes = {
+  prev: PropTypes.func
+};
